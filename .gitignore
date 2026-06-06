@@ -1,0 +1,24 @@
+# Local and IDE files
+.DS_Store
+.idea/
+__pycache__/
+*.py[cod]
+
+# Raw, intermediate, and generated data
+Data/
+washed_data/
+Results/
+Figures/
+Final/
+
+# Large documents and local notes
+Guidance/
+Pipeline/
+*.pdf
+*.docx
+
+# Python environments
+.venv/
+venv/
+env/
+
