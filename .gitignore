@@ -9,6 +9,9 @@ Data/
 washed_data/
 Results/
 Figures/
+!Figures/
+Figures/*
+!Figures/Fig2.png
 Final/
 
 # Large documents and local notes
@@ -21,4 +24,3 @@ Pipeline/
 .venv/
 venv/
 env/
-

@@ -1,5 +1,7 @@
 # Protein LLM DBP Prediction
 
+![Protein LLM DBP prediction workflow](Figures/Fig2.png)
+
 This repository contains the code for a sequence-based DNA-binding protein (DBP) prediction workflow. The project integrates UniProt protein annotations, rule-based label construction, ESM-2 protein language model embeddings, amino-acid composition baselines, classical machine learning classifiers, ambiguity perturbation analysis, and misclassification interpretation.
 
 ## 中文摘要
@@ -85,4 +87,3 @@ python Code/07_misclassification_analysis.py --help
 ## AI Usage Statement
 
 This project was completed with vibe-coding assistance from OpenAI Codex (GPT-5). Codex helped draft and refactor Python scripts, diagnose runtime errors, organize visualizations, prepare README documentation, and review code structure. All biological definitions, annotation rules, model choices, interpretation of results, and final scientific conclusions were checked and approved by the author. Before release, the code was syntax-checked and command-line entry points were reviewed to ensure that the repository remains executable and reproducible within the stated environments.
-
